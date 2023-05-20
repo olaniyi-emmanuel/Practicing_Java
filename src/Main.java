@@ -22,11 +22,8 @@ public class Main {
         //Taking the height of the user
         Scanner userHeight = new Scanner(System.in);
         System.out.print("Enter your height in meters : ");
-        System.out.println("Your current height is " + userHeight.nextLine());
-
-
-
-
+        double newUserHeight = userHeight.nextDouble();
+        System.out.println("Your current height is " + newUserHeight + "meters" );
 
     }
 
