@@ -16,7 +16,7 @@ public class Main {
         //Taking the gender of the user
         Scanner userGender = new Scanner(System.in);
         System.out.print("Enter your Gender Male_or_Female: ");
-        System.out.println("Your chosen gender is " + userGender.nextLine());
+        System.out.println("Your current chosen gender is " + userGender.nextLine());
 
 
 
