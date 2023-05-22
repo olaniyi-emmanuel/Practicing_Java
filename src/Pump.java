@@ -6,6 +6,7 @@ public class Pump {
         System.out.print("Enter the four digit number: ");
         int myNumber = input.nextInt();
 
+
         //4th digit
         int fourthDigit= myNumber%10;
 
@@ -19,10 +20,13 @@ public class Pump {
         int firstDigit = myNumber/1000;
 
         //logic of lucky number
-        if ((firstDigit + secondDigit) == (thirdDigit + fourthDigit))
-            System.out.println("Winner, your entry is a lucky Number ");
+        if (myNumber >9999)
+            System.out.println("Your entry is invalid");
         else
-            System.out.println("Sorry, your number is not a lucky number");
+            if ((firstDigit + secondDigit) == (thirdDigit + fourthDigit))
+            System.out.println("Winner, your entry is a lucky Number ");
+            else
+                System.out.println("Sorry, your number is not a lucky number");
 
 
 
