@@ -1,12 +1,20 @@
 import java.util.Scanner;
 
 public class Next {
-    //Read the user's favourite number (doble, int,...) and then display it in a message of choice
     public static void main(String[] args) {
-        Scanner userFavouriteNumber = new Scanner(System.in);
-        System.out.print("Enter your favourite number ");
-        System.out.println("Your favourite number is " + userFavouriteNumber.nextDouble());
+        Scanner myNumber = new Scanner(System.in);
+        System.out.print("Enter an integer: ");
+        int myNewNumber = myNumber.nextInt();
 
-    }
+        if (myNewNumber >10){
+            System.out.println("Your number is greater than 10");
 
-}
+        } else if (myNewNumber==10) {
+            System.out.println("Your number is equal to 10");
+        }
+        else {
+            System.out.println("YOur number is less than 10");
+        }
+
+
+}}
