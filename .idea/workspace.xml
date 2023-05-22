@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9988210-440e-456d-acbc-7ac026488e3d" name="Changes" comment="Getting input from user">
-      <change beforePath="$PROJECT_DIR$/src/Next.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Next.java" afterDir="false" />
+    <list default="true" id="c9988210-440e-456d-acbc-7ac026488e3d" name="Changes" comment="Read the user's favourite number (doble, int,...) and then display it in a message of choice">
+      <change afterPath="$PROJECT_DIR$/src/Rest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +35,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Next">
+}</component>
+  <component name="RunManager" selected="Application.Rest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="untitled" />
@@ -55,8 +56,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Rest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rest" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Upper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Upper" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Rest" />
+        <item itemvalue="Application.Upper" />
         <item itemvalue="Application.Next" />
         <item itemvalue="Application.Main" />
       </list>
@@ -99,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684623292704</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Read the user's favourite number (doble, int,...) and then display it in a message of choice">
+      <created>1684623849848</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684623849848</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Read the user's favourite number (doble, int,...) and then display it in a message of choice">
+      <created>1684785612236</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684785612236</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,7 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Getting input from user" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting input from user" />
+    <MESSAGE value="Read the user's favourite number (doble, int,...) and then display it in a message of choice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Read the user's favourite number (doble, int,...) and then display it in a message of choice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
