@@ -20,7 +20,7 @@ public class Pump {
         int firstDigit = myNumber/1000;
 
         //logic of lucky number
-        if (myNumber >9999)
+        if ((myNumber >9999) && (myNumber <999))
             System.out.println("Your entry is invalid");
         else
             if ((firstDigit + secondDigit) == (thirdDigit + fourthDigit))
