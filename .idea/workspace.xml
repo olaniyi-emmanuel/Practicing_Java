@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9988210-440e-456d-acbc-7ac026488e3d" name="Changes" comment="Read the user's favourite number (doble, int,...) and then display it in a message of choice">
+      <change afterPath="$PROJECT_DIR$/src/Limp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lopp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pump.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,9 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2PzBJ0EXsc6Ocl9lQJbJqQHsGzL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,9 +44,16 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Pin">
-    <configuration name="Next" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Next" />
+  <component name="RunManager" selected="Application.Limp">
+    <configuration name="Limp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Limp" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lopp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lopp" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -71,20 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Upper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Upper" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Limp" />
+        <item itemvalue="Application.Lopp" />
         <item itemvalue="Application.Pin" />
         <item itemvalue="Application.Pump" />
         <item itemvalue="Application.Rest" />
-        <item itemvalue="Application.Upper" />
-        <item itemvalue="Application.Next" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684795493702</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Read the user's favourite number (doble, int,...) and then display it in a message of choice">
+      <created>1684862744773</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684862744773</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
